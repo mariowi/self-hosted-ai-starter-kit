@@ -1,9 +1,10 @@
-# Self-hosted AI starter kit (incl. Docling)
+# Self-hosted AI starter kit (incl. Docling and LightRAG)
 
 **Self-hosted AI Starter Kit** is an open-source Docker Compose template designed to swiftly initialize a comprehensive local AI and low-code development environment.
 
 > [NOTE]
-> This is a fork maintained by [theaiautomators](https://github.com/theaiautomators).
+> This is a fork maintained by [MarioWi](https://github.com/mariowi/).
+> Forked from: [theaiautomators/self-hosted-ai-starter-kit](https://github.com/theaiautomators/self-hosted-ai-starter-kit)<br>
 > Original repository: [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
 
 ![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/assets/n8n-demo.gif)
@@ -31,7 +32,12 @@ Engineering world, handles large amounts of data safely.
 
 ✅ [**Docling**](https://www.docling.ai/) - OCR and document parsing service for extracting structured data from documents
 
+✅ [**LightRAG**](https://lightrag.github.io/) - Simple and Fast Retrieval-Augmented Generation
+
 ✅ **Static File Server** - Nginx-based file server that serves the shared folder, accessible at http://localhost:8080
+
+✅ [**nginx Proxy Manager**](https://nginxproxymanager.com/) - Nginx-based proxy manager, accessible at http://localhost:81
+
 
 ### What you can build
 
@@ -188,6 +194,9 @@ and nodes. If you run into an issue, go to [support](#support).
 ## 🎥 Video walkthrough
 
 - [Installing and using Local AI for n8n](https://www.youtube.com/watch?v=xz_X2N-hPg0)
+<br><br>
+Good step-by-step instructions and basis for this repository from [theaiautomators](https://github.com/theaiautomators)
+- [Deploying Fully Private + Local AI RAG Agents (Step by Step)](https://www.youtube.com/watch?v=bankdPmQnHU)
 
 ## 🛍️ More AI templates
 
